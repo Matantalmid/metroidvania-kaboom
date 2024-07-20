@@ -1,11 +1,9 @@
-export const stateProgressEnum = {};
-
-function initStateMAnager() {
+function initStateManager() {
   const state = {
     playerHp: 3,
     maxPlayerHp: 3,
     isDoubleJumpUnlocked: false,
-    playerIsInBossFight: false,
+    playerInBossFight: false,
     isBossDefeated: false,
   };
 
@@ -19,4 +17,4 @@ function initStateMAnager() {
   };
 }
 
-export const state = initStateMAnager();
+export const state = initStateManager();
